@@ -1,0 +1,13 @@
+togglz:
+  features:
+    DISCOUNT_APPLIED:
+      enabled: true
+  features-file: 'file:C:\Users\joaop\Documents\workspace\togglz\src\main\resources\feature.properties'
+  console:
+    secured: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'togglz'
